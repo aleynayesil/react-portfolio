@@ -12,8 +12,10 @@
     --color-bg:#1f1f38;
     --color-bg-variant:#2c2c6c;
     --color-primary:#4db5ff;
+    --color-primary-dark:#289bee;
     --color-primary-variant:rgba(77,181,255,0.4);
     --color-white:#fff;
+    --color-pink:#F39092;
     --color-light:rgba(255,255,255,0.6);
 
     --transition: all 400ms ease;
@@ -32,7 +34,6 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg.jpg);
 }
 /*******************General styles***************/
 .container{
@@ -64,7 +65,7 @@ a{
     transition: var(--transition);
 }
 a:hover{
-    color: var(var(--color-white));
+    color: var(--color-primary-dark);
 }
 .btn{
     width: max-content;
@@ -78,7 +79,7 @@ a:hover{
 }
 
 .btn:hover{
-    background: var(--color-white);
+    background: var(--color-primary-dark);
     color: var(--color-bg);
     border-color:transparent ;
 }

@@ -31,11 +31,11 @@ header{
     background: var(--color-primary);
 }
 .me {
-    background: linear-gradient(rgb(255, 136, 209),transparent);
-    width: 16rem;
+    background: linear-gradient(var(--color-pink),transparent);
+    width: 18rem;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 8rem);
+    left: calc(50% - 9rem);
     margin-top: 2rem;
     border-radius: 12rem 12rem 0 0 ;
     overflow: hidden;
@@ -66,4 +66,17 @@ header{
     .scroll__down{
         display: none;
     }
+    .me {
+        width: 16rem;
+        height: 30rem;
+        position: absolute;
+        left: calc(50% - 8rem);
+        margin-top: 2rem;
+        border-radius: 12rem 12rem 0 0 ;
+        overflow: hidden;
+        padding: 0.8rem 1.5rem 1.5rem 1.5rem;
+    }
+}
+@media  screen and (max-width:400px) {
+
 }
